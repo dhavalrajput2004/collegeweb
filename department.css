@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color:white;
+}
+div.nav{
+    align-self: flex-start;
+}
+h1{
+    background-color: brown;
+    text-align: center;
+    color: aqua;
+    font-family: sans-serif;
+}
+table{
+    border-color:brown;
+    border-spacing: 5px;
+    border-radius: 20px;
+}
+tr:nth-child(even){  background-color:dimgray; }
+h2,h3{color:aqua}
+a:link,a:visited{
+     font-size:120%;
+    color: aqua;
+    text-decoration: none;
+    display:block;
+  }
+  a:hover{
+   color: brown;
+   font-size:140%;
+     background-color:aqua;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px; /* Add some padding for spacing */
+}
+  .left-nav {
+    width: 300px; /* Adjust the width as needed */
+}
+
+.left-nav ul {
+    list-style-type: none;
+}
+
+.left-nav ul li {
+    margin-bottom: 10px;
+}
+.right-content {
+    flex-grow: 1; /* Allow the content to grow and fill available space */
+    padding: 20px; /* Add some padding for spacing */
+    border-left: 1px solid #ccc; /* Add a border to separate the columns */
+}
+
+
+

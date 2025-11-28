@@ -1,0 +1,57 @@
+body{ 
+ 
+    background-color: black;
+   padding: 20px 70px 30px 30px;
+   margin-top: 20px;
+   color:aqua;
+   text-align:center;
+}
+
+img{
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+}
+h1{ 
+    text-align: center;
+   color: aqua;
+   font-family: sans-serif;
+ 
+}
+p{ text-align: center;
+   color: aqua;
+   font-family: sans-serif;
+  font-size:2vw;}
+
+table{
+  border-color:brown;
+  border-spacing: 5px;
+  border-radius: 20px;
+  height:50%;
+}
+a:link{
+  text-decoration: none;
+  color:aqua;
+}
+a:visited{
+  color:aqua;
+  text-decoration: none;
+}
+a:hover{
+   color:brown;
+   text-decoration: underline;
+   background: aqua;
+   font-size: 125%;
+}
+a:active{
+  color:green;
+  background-color: brown;
+}
+
+
+.margin{
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
